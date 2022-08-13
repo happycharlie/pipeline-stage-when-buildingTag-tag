@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
 		
 			when{
-				tag "release-*"
+				tag "2.0"
 			}
 		
             steps {                
